@@ -1,0 +1,9 @@
+export { default as Main } from "./main.jpeg";
+export { default as work1 } from "./work1.png";
+export { default as work2 } from "./work2.png";
+export { default as work3 } from "./work3.png";
+export { default as work4 } from "./work4.png";
+export { default as work5 } from "./work5.png";
+export { default as work6 } from "./work6.png";
+export { default as work7 } from "./work7.png";
+export { default as work8 } from "./work8.png";
