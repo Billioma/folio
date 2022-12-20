@@ -69,18 +69,66 @@ export const bios = [
 ];
 
 export const icons = [
-  <FaReact />,
-  <SiTypescript />,
-  <SiNextdotjs />,
-  <FaVuejs />,
-  <FaHtml5 />,
-  <FaCss3 />,
-  <SiChakraui />,
-  <SiMaterialui />,
-  <SiRedux />,
-  <FaSass />,
-  <FaFigma />,
-  <SiGithub />,
+  {
+    id: 1,
+    icon: <FaReact />,
+    text: "React",
+  },
+  {
+    id: 2,
+    icon: <SiTypescript />,
+    text: "TypeScript",
+  },
+  {
+    id: 3,
+    icon: <SiNextdotjs />,
+    text: "Next.js",
+  },
+  {
+    id: 4,
+    icon: <FaVuejs />,
+    text: "Vue.js",
+  },
+  {
+    id: 5,
+    icon: <FaHtml5 />,
+    text: "HTML",
+  },
+  {
+    id: 6,
+    icon: <FaCss3 />,
+    text: "CSS",
+  },
+  {
+    id: 7,
+    icon: <SiChakraui />,
+    text: "Chakra UI",
+  },
+  {
+    id: 8,
+    icon: <SiMaterialui />,
+    text: "MUI",
+  },
+  {
+    id: 9,
+    icon: <SiRedux />,
+    text: "Redux",
+  },
+  {
+    id: 10,
+    icon: <FaSass />,
+    text: "SASS",
+  },
+  {
+    id: 11,
+    icon: <FaFigma />,
+    text: "FIGMA",
+  },
+  {
+    id: 12,
+    icon: <SiGithub />,
+    text: "GitHub",
+  },
 ];
 
 export const experiences = [
