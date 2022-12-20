@@ -49,8 +49,8 @@ const Contact = () => {
           </p>
           {contacts.map((contact) => {
             return (
-              <a href={contact.link}>
-                <div className="contact_left" key={contact.id}>
+              <a href={contact.link} key={contact.id}>
+                <div className="contact_left">
                   <div className="icon">{contact.icon}</div>
                   <p>{contact.infoText}</p>
                 </div>
@@ -81,7 +81,8 @@ const Contact = () => {
                 type="text"
                 name="id"
                 className="hide"
-                value={id}
+                defaultValue={id}
+                // value={id}
                 placeholder="Last name"
               />
             </div>
