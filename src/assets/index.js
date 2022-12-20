@@ -7,3 +7,4 @@ export { default as work5 } from "./work5.png";
 export { default as work6 } from "./work6.png";
 export { default as work7 } from "./work7.png";
 export { default as work8 } from "./work8.png";
+export { default as Resume } from "./resume.pdf";
