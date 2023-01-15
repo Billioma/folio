@@ -134,25 +134,31 @@ export const icons = [
 export const experiences = [
   {
     id: 1,
-    year: "2022 - Present",
+    year: "Dec'22 - Present",
     position: "Front-End Team Lead",
     company: "cyberme studios",
   },
   {
-    di: 2,
-    year: "2022",
+    id: 2,
+    year: "Jul'22 - Present",
+    position: "Front-End Team Lead",
+    company: "cyberme studios",
+  },
+  {
+    di: 3,
+    year: "May'22 - Jul'22",
     position: "Front-End Developer",
     company: "cyberme studios",
   },
   {
-    id: 3,
-    year: "2021 - 2022",
+    id: 4,
+    year: "Jan'22 - Jul'22",
     position: "Front-End Developer",
     company: "3REEN",
   },
   {
-    id: 4,
-    year: "2020 - 2022",
+    id: 5,
+    year: "Apr'20 - Aug'22",
     position: "Front-End Developer",
     company: "Freelance",
   },
@@ -170,7 +176,7 @@ export const finishes = [
   },
   {
     id: 3,
-    number: "117+",
+    number: "57+",
     itemName: "Clients Served",
   },
 ];
