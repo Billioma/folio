@@ -5,7 +5,7 @@ Fully Mobile Responsive
 ### Deployment
 The Project was deployed using Netlify Hostbase
 
-### [Live Page]()
+### [Live Page](https://bilalomari.netlify.app/)
 
 In the project directory, you can run:
 
