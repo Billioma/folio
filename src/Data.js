@@ -20,6 +20,7 @@ import {
   SiMaterialui,
   SiNextdotjs,
   SiWebflow,
+  SiTailwindcss,
 } from "react-icons/si";
 import {
   work,
@@ -137,6 +138,11 @@ export const icons = [
     id: 13,
     icon: <SiWebflow />,
     text: "Webflow",
+  },
+  {
+    id: 14,
+    icon: <SiTailwindcss />,
+    text: "Tailwind CSS",
   },
 ];
 
