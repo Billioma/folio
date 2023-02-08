@@ -19,6 +19,7 @@ import {
   SiGithub,
   SiMaterialui,
   SiNextdotjs,
+  SiWebflow,
 } from "react-icons/si";
 import {
   work,
@@ -132,14 +133,19 @@ export const icons = [
     icon: <SiGithub />,
     text: "GitHub",
   },
+  {
+    id: 13,
+    icon: <SiWebflow />,
+    text: "Webflow",
+  },
 ];
 
 export const experiences = [
   {
     id: 1,
     year: "Dec'22 - Present",
-    position: "Front-End Team Lead",
-    company: "cyberme studios",
+    position: "Front-End Developer",
+    company: "Fastamoni",
   },
   {
     id: 2,
@@ -169,17 +175,17 @@ export const experiences = [
 export const finishes = [
   {
     id: 1,
-    number: "5+",
+    number: "5",
     itemName: "Years Of Experience",
   },
   {
     id: 2,
-    number: "699+",
+    number: "499+",
     itemName: "Designed Items",
   },
   {
     id: 3,
-    number: "57+",
+    number: "37+",
     itemName: "Clients Served",
   },
 ];
@@ -189,7 +195,7 @@ export const workImages = [
     id: 1,
     img: work,
     name: "project 1",
-    category: "react.js",
+    category: "react",
     git: "private",
     view: "https://fastamoni.com/",
   },
@@ -197,7 +203,7 @@ export const workImages = [
     id: 2,
     img: workk,
     name: "project 2",
-    category: "next",
+    category: "react",
     git: "private",
     view: "https://www.app.fastamoni.com/",
   },
@@ -205,7 +211,7 @@ export const workImages = [
     id: 3,
     img: workkk,
     name: "project 3",
-    category: "react",
+    category: "typescript",
     git: "private",
     view: "https://fuspay-instance-test.netlify.app/",
   },
@@ -213,7 +219,7 @@ export const workImages = [
     id: 4,
     img: work1,
     name: "project 4",
-    category: "typescript",
+    category: "next.js",
     git: "https://github.com/Billioma/oma_realestate",
     view: "https://oma-realestate.vercel.app/",
   },

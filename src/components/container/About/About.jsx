@@ -37,10 +37,12 @@ const About = () => {
           transition={{ duration: 1 }}
         >
           <p>
-            Front-End Developer with proven experience to collaborate
-            effectively with Back-End Developers and Web Designers in helping
-            companies/brands create and maintain a better code base for
-            reusability. I look forward to working collaboratively.
+            5 years of experience in developing web applications and websites
+            using React/Typescript, Next.JS, Vue.js. Managed a 15- member
+            cross-functional (engineering, design) team and coordinated with
+            project managers across different time zones towards the execution
+            of multiple projects. Developed a cybersecurity and brand protection
+            web app deployed at Black HAT event, Nov 15 - 17, 2022, Riyadh SA
           </p>
           {bios.map((bio) => {
             return (
