@@ -4,6 +4,8 @@ import { socialIcons } from "../../../Data";
 import { motion } from "framer-motion";
 
 const Footer = () => {
+  const dates = new Date();
+  const year = dates.getFullYear();
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -15,7 +17,7 @@ const Footer = () => {
     >
       <div className="copyright">
         <p>
-          Copyright&copy;2022 All rights reserved.Made by{" "}
+          Copyright&copy;{year} All rights reserved.Made by{" "}
           <span>Bilal Omari</span>
         </p>
       </div>
