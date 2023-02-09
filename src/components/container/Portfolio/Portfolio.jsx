@@ -9,7 +9,6 @@ const Portfolio = () => {
   const [tab, setTab] = useState({ name: "all" });
   const [works, setWorks] = useState([]);
   const [active, setActive] = useState(0);
-  const [show, setShow] = useState(false);
 
   useEffect(() => {
     if (tab.name === "all") {
@@ -66,8 +65,6 @@ const Portfolio = () => {
             <div className="workImage glow" key={work.id}>
               <img src={work.img} alt="workImg" />
               <motion.div
-                onMouseEnter={() => setShow(true)}
-                onMouseLeave={() => setShow(false)}
                 initial={{ opacity: 0 }}
                 whileHover={{ opacity: [0, 1] }}
                 transition={{ duration: 0.3, ease: "easeInOut" }}

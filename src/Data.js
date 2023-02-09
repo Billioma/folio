@@ -200,7 +200,6 @@ export const workImages = [
   {
     id: 1,
     img: work,
-    name: "project 1",
     category: "react",
     git: "private",
     view: "https://fastamoni.com/",
@@ -208,7 +207,6 @@ export const workImages = [
   {
     id: 2,
     img: workk,
-    name: "project 2",
     category: "react",
     git: "private",
     view: "https://www.app.fastamoni.com/",
@@ -216,78 +214,41 @@ export const workImages = [
   {
     id: 3,
     img: workkk,
-    name: "project 3",
     category: "typescript",
-    git: "private",
+    git: "https://github.com/Billioma/fuspay-test",
     view: "https://fuspay-instance-test.netlify.app/",
   },
   {
     id: 4,
     img: work1,
-    name: "project 4",
     category: "next.js",
     git: "https://github.com/Billioma/oma_realestate",
     view: "https://oma-realestate.vercel.app/",
   },
   {
     id: 5,
-    img: work2,
-    name: "project 5",
-    category: "typescript",
-    git: "https://github.com/Billioma/task-tracker",
-    view: "https://task-tracker-indol.vercel.app/",
-  },
-  {
-    id: 6,
-    img: work5,
-    name: "project 6",
-    category: "typescript",
-    git: "https://github.com/Billioma/videochat",
-    view: "https://courtroom.netlify.app/create",
-  },
-  {
-    id: 7,
     img: work3,
-    name: "project 7",
     category: "react",
     git: "https://github.com/Billioma/restaurant-UI",
     view: "https://restaurant-page-ui.vercel.app/",
   },
   {
-    id: 8,
-    img: work4,
-    name: "project 8",
-    category: "design",
-    git: "https://github.com/Billioma/hospital",
-    view: "https://ancilla-hospital.netlify.app/",
+    id: 6,
+    img: work2,
+    category: "typescript",
+    git: "https://github.com/Billioma/task-tracker",
+    view: "https://task-tracker-indol.vercel.app/",
   },
   {
-    id: 9,
-    img: work6,
-    name: "project 9",
-    category: "react",
-    git: "https://github.com/Billioma/gpt3",
-    view: "https://gpt3-js.netlify.app/",
-  },
-  {
-    id: 10,
-    img: work7,
-    name: "project 10",
-    category: "design",
-    git: "https://github.com/Billioma/theShu",
-    view: "https://theshuu.netlify.app/",
-  },
-  {
-    id: 11,
-    img: work8,
-    name: "project 11",
-    category: "design",
-    git: "https://github.com/Billioma/restaurant__website",
-    view: "https://chop-restaurant.netlify.app/",
+    id: 7,
+    img: work5,
+    category: "typescript",
+    git: "https://github.com/Billioma/videochat",
+    view: "https://courtroom.netlify.app/create",
   },
 ];
 
-export const workNavs = ["All", "Next.JS", "React", "Typescript", "Design"];
+export const workNavs = ["All", "Next.JS", "React", "Typescript"];
 
 export const contacts = [
   {
