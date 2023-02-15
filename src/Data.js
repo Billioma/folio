@@ -155,7 +155,7 @@ export const experiences = [
   },
   {
     id: 2,
-    year: "Jul'22 - Present",
+    year: "Jul'22 - Feb'23",
     position: "Front-End Team Lead",
     company: "cyberme studios",
   },

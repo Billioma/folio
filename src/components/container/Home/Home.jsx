@@ -33,10 +33,8 @@ const Home = () => {
         <h3 className="name">
           Hi, I'm <span>Omar Bilal</span>{" "}
         </h3>
-        <span className="job">Front-End Developer</span>
         <span className="text">
-          Passionate
-          <br /> to craft innovative <br /> web products.
+          Transforming ideas <br /> into visual digital <br /> experiences.
         </span>
         <motion.a
           href="#contact"
