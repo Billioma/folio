@@ -28,9 +28,7 @@ import {
   work1,
   work2,
   work3,
-  work5,
   workk,
-  workkk,
 } from "./assets/index";
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"];
 
@@ -217,38 +215,24 @@ export const workImages = [
   },
   {
     id: 4,
-    img: workkk,
-    category: "typescript",
-    git: "https://github.com/Billioma/fuspay-test",
-    view: "https://fuspay-instance-test.netlify.app/",
-  },
-  {
-    id: 5,
     img: work1,
     category: "next.js",
     git: "https://github.com/Billioma/oma_realestate",
     view: "https://oma-realestate.vercel.app/",
   },
   {
-    id: 6,
+    id: 5,
     img: work3,
     category: "react",
     git: "https://github.com/Billioma/restaurant-UI",
     view: "https://restaurant-page-ui.vercel.app/",
   },
   {
-    id: 7,
+    id: 6,
     img: work2,
     category: "typescript",
     git: "https://github.com/Billioma/task-tracker",
     view: "https://task-tracker-indol.vercel.app/",
-  },
-  {
-    id: 8,
-    img: work5,
-    category: "typescript",
-    git: "https://github.com/Billioma/videochat",
-    view: "https://courtroom.netlify.app/create",
   },
 ];
 
