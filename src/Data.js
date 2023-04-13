@@ -137,30 +137,36 @@ export const icons = [
 export const experiences = [
   {
     id: 1,
+    year: "Mar'23 - Present",
+    position: "Software Engineer",
+    company: "Travelbay",
+  },
+  {
+    id: 2,
     year: "Dec'22 - Present",
     position: "Front-End Developer",
     company: "Fastamoni",
   },
   {
-    id: 2,
+    id: 3,
     year: "Jul'22 - Feb'23",
     position: "Front-End Team Lead",
     company: "cyberme studios",
   },
   {
-    di: 3,
+    id: 4,
     year: "May'22 - Jul'22",
     position: "Front-End Developer",
     company: "cyberme studios",
   },
   {
-    id: 4,
+    id: 5,
     year: "Jan'22 - Jul'22",
     position: "Front-End Developer",
     company: "3REEN",
   },
   {
-    id: 5,
+    id: 6,
     year: "Apr'20 - Aug'22",
     position: "Front-End Developer",
     company: "Freelance",
