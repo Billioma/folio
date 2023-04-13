@@ -22,14 +22,7 @@ import {
   SiWebflow,
   SiTailwindcss,
 } from "react-icons/si";
-import {
-  wor,
-  work,
-  work1,
-  work2,
-  work3,
-  workk,
-} from "./assets/index";
+import { wor, work, work1, work2, work3, work4, workk } from "./assets/index";
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"];
 
 export const socialIcons = [
@@ -201,34 +194,41 @@ export const workImages = [
   },
   {
     id: 2,
+    img: work4,
+    category: "react",
+    git: "private",
+    view: "https://www.edupali.com/",
+  },
+  {
+    id: 3,
     img: workk,
     category: "react",
     git: "private",
     view: "https://www.app.fastamoni.com/",
   },
   {
-    id: 3,
+    id: 4,
     img: wor,
     category: "typescript",
     git: "https://github.com/Billioma/risefinance",
     view: "https://rise-finance.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     img: work1,
     category: "next.js",
     git: "https://github.com/Billioma/oma_realestate",
     view: "https://oma-realestate.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     img: work3,
     category: "react",
     git: "https://github.com/Billioma/restaurant-UI",
     view: "https://restaurant-page-ui.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     img: work2,
     category: "typescript",
     git: "https://github.com/Billioma/task-tracker",
